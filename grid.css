@@ -42,3 +42,23 @@
   margin:0;
   text-align: center;
 }
+.BOX1 {
+  width: 1200px;
+  height: 400px;
+  background-color: rgb(231, 231, 231);
+  padding: 0;
+  margin: 80px;
+  margin-left:140px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  overflow: hidden;
+  
+  
+ 
+}
+.BOX1 > img {
+  height: 110%;
+  width:auto;
+  margin-left: 550px;
+  
+}
