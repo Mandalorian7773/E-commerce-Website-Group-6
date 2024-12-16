@@ -36,7 +36,7 @@
     margin:150px;
     border-radius: 20px;
     box-shadow: 4px 4px 30px black;
-    margin-top: 0;
+    margin-top: 100px;
 
 }
 .para1 > p{
@@ -80,20 +80,12 @@
     text-align: center;
     font-size: 100px;
     margin:0;
+  
 
 
 }
-.heading1 > img {
-    max-width: 600px;
-    height:auto;
-    margin-left:420px;
 
 
-}
-.heading1{
-    align-items: center;
-
-}
 .heading1 > h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -151,7 +143,43 @@
     font-size: 18px;
     cursor: pointer;
 }
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 80px;
+    padding: var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:100px;
+}
 
+.feature-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.feature-card h2 {
+    padding: var(--spacing-sm);
+    color: var(--primary-color);
+}
+
+.feature-card p {
+    padding: 0 var(--spacing-sm) var(--spacing-sm);
+    color: var(--text-color);
+}
 
 
 
