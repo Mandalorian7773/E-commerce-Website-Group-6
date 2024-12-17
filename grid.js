@@ -10,9 +10,9 @@ fetch("seller.json")
             shoeBox.classList.add('shoeIcon'); 
 
             
-            shoeBox.onclick = () => {
+            shoeBox.onclick ( () => {
                 window.location.href = `product.html?id=${item.id}`;
-            };
+            });
 
             const image = document.createElement('img');
             image.src = item.img;
