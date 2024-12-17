@@ -1,36 +1,56 @@
 fetch("seller.json")
-    .then(response => response.json())
-    .then(data => {
-        const shoeData = data.shoesData;
-        const shoeDiv = document.querySelector("#gridC");
-        shoeDiv.innerHTML = '';
+  .then(response => response.json())
+  .then(data => {
+    const shoeData = data.shoesData;
+    const shoeDiv = document.querySelector("#gridC");
 
-        shoeData.forEach(item => {
-            const shoeBox = document.createElement('div');
-            shoeBox.classList.add('shoeIcon'); 
+    function displayProducts(products) {
+      shoeDiv.innerHTML = '';
 
-            
-            shoeBox.onclick = () => {
-                window.location.href = `product.html?id=${item.id}`;
-            };
+      products.forEach(item => {
+        const shoeBox = document.createElement('div');
+        shoeBox.classList.add('shoeIcon');
 
-            const image = document.createElement('img');
-            image.src = item.img;
-            image.alt = item.modelName;
+        shoeBox.onclick = () => {
+          window.location.href = `product.html?id=${item.id}`;
+        };
 
-            shoeBox.appendChild(image);
+        const image = document.createElement('img');
+        image.src = item.img;
+        image.alt = item.modelName;
 
-            const shoeName = document.createElement('h4');
-            shoeName.innerText = item.modelName;
-            shoeBox.appendChild(shoeName);
+        shoeBox.appendChild(image);
 
-            const shoePrice = document.createElement('h5');
-            shoePrice.innerText = '$' + item.price;
-            shoeBox.appendChild(shoePrice);
+        const shoeName = document.createElement('h4');
+        shoeName.innerText = item.modelName;
+        shoeBox.appendChild(shoeName);
 
-            shoeDiv.appendChild(shoeBox);
-        });
-    })
-    .catch(error => {
-        console.error('Error fetching data:', error);
+        const shoePrice = document.createElement('h5');
+        shoePrice.innerText = '$' + item.price;
+        shoeBox.appendChild(shoePrice);
+
+        shoeDiv.appendChild(shoeBox);
+      });
+    }
+
+    displayProducts(shoeData);
+
+    document.getElementById('search-btn').addEventListener('click', () => {
+      let searchInput = document.querySelector('.search-input').value.toLowerCase();
+
+      const filteredProducts = shoeData.filter(item => 
+        item.modelName.toLowerCase().includes(searchInput)
+      );
+
+      displayProducts(filteredProducts);
     });
+
+    document.querySelector('.search-input').addEventListener('keypress', (event) => {
+      if (event.key === 'Enter') {
+        document.getElementById('search-btn').click();
+      }
+    });
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
