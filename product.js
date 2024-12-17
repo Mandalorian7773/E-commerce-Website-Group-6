@@ -1,7 +1,5 @@
-const params = new URLSearchParams(window.location.search);
-    const productId = parseInt(params.get('id')); 
-
-   
+const a = new URLSearchParams(window.location.search);
+    const productId = parseInt(a.get('id')); 
     fetch('seller.json')
       .then(response => response.json())
       .then(data => {
@@ -9,11 +7,11 @@ const params = new URLSearchParams(window.location.search);
 
         if (product) {
          
-          document.getElementById('product-image').src = product.img;
-          document.getElementById('product-name').innerText = product.modelName;
-          document.getElementById('product-price').innerText = `Price: $${product.price}`;
-          document.getElementById('product-description').innerText = product.description;
-          document.getElementById('product-details-list').innerText = product.details;
+          document.getElementById('productImg').src = product.img;
+          document.getElementById('ModelName').innerText = product.modelName;
+          document.getElementById('price').innerText = `Price: $${product.price}`;
+          document.getElementById('description').innerText = product.description;
+          document.getElementById('details').innerText = product.details;
         } else
          {
          document.querySelector('.container').innerHTML = '<h1>not found</h1>';
