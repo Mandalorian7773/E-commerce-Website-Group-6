@@ -47,18 +47,45 @@
  
   
 }
+.N1964 {
+    align-items: center;
+    display: flex;
+}
 
 
 .N1964 > img{
     height:600px;
     width:auto;
-    margin-left: 800px;
-    position:sticky;
+    margin-right:300px;
+   
     box-shadow: 4px 4px 30px black;
+    margin-left: 130px;
+    
     
   
     border-radius: 20px;
 }
+.N1964 > p{
+    position: relative;
+  
+    font-size: 100px;
+  
+    text-align: center;
+}
+.shoeDisplay{
+    display: flex;
+    align-items: center;
+    
+}
+.shoeDisplay > p{
+    font-size: 70px;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+    
+}
+
 
 .shoeDisplay > img{
     height:600px;
@@ -241,6 +268,9 @@ section {
 .material-item ul {
     
     padding-left: 20px;
+}
+.materials h2{
+    margin-left: 450px;
 }
 
 
