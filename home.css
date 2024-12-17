@@ -183,5 +183,66 @@
 }
 
 
+section {
+    padding: 40px 20px;
+    margin: 20px;
+  border-radius: 8px;
+    
+}
+
+
+.craft-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.craft-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.craft-item {
+ 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.craft-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.material-grid {
+    display: flex;
+   flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.material-item {
+ margin: 10px;
+    padding: 20px;
+  border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.material-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.material-item ul {
+    
+    padding-left: 20px;
+}
+
+
 
 
