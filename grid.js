@@ -1,49 +1,36 @@
 fetch("seller.json")
-i
-.then(response => response.json())
-.then(data => {
-    const shoeData = data.shoesData;
-    const shoeDiv = document.querySelector("#gridC");
-    shoeDiv.innerHTML='';
+    .then(response => response.json())
+    .then(data => {
+        const shoeData = data.shoesData;
+        const shoeDiv = document.querySelector("#gridC");
+        shoeDiv.innerHTML = '';
 
-    shoeData.forEach(item => {
-        for(const key in item){
-            if(key== "img") {
+        shoeData.forEach(item => {
+            const shoeBox = document.createElement('div');
+            shoeBox.classList.add('shoeIcon'); 
 
-                const shoeBox =document.createElement('div');
+            
+            shoeBox.onclick = () => {
+                window.location.href = `product.html?id=${item.id}`;
+            };
 
-                shoeBox.classList.add('#shoeIcon');
+            const image = document.createElement('img');
+            image.src = item.img;
+            image.alt = item.modelName;
 
-                const image =document.createElement('img');
+            shoeBox.appendChild(image);
 
-                image.src=item.img;
+            const shoeName = document.createElement('h4');
+            shoeName.innerText = item.modelName;
+            shoeBox.appendChild(shoeName);
 
-                image.alt="shoe img";
+            const shoePrice = document.createElement('h5');
+            shoePrice.innerText = '$' + item.price;
+            shoeBox.appendChild(shoePrice);
 
-                shoeBox.appendChild(image);
-
-                const shoeName = document.createElement('h4');
-
-                shoeName.innerText = item.modelName;
-
-                shoeBox.appendChild(shoeName);
-
-                const shoePrice = document.createElement('h5');
-
-                shoePrice.innerText = '$'+item.price;
-
-                shoeBox.appendChild(shoePrice);
-
-                shoeDiv.appendChild(shoeBox);
-            }
-        }
+            shoeDiv.appendChild(shoeBox);
+        });
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
     });
-    
-    
-
-})
-.catch(error => {
-
-    console.error('Error fetching data:', error);
-
-});
