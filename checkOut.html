@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Box</title>
+    <link rel="stylesheet" href="checkOut.css">
+</head>
+<body>
+    <div class="header">
+        <a href="homepage.html" class="back-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg>
+            Back to Home
+        </a>
+    </div>
+    <div class="checkout-container">
+        <div class="review-section">
+            <h2>Review Item And Shipping</h2>
+            <div id="cart-items" class="cart-items-container"></div>
+
+            <h3>Delivery Information</h3>
+            <div class="delivery-info">
+                <div><strong>Name:</strong> John Doe</div>
+                <div><strong>Address:</strong> 1234 Elm Street</div>
+                <div><strong>City:</strong> Los Angeles</div>
+                <div><strong>Zip Code:</strong> 90001</div>
+                <div><strong>Email:</strong> john.doe@example.com</div>
+            </div>
+            <button class="edit-btn">Edit Information</button>
+        </div>
+
+        <div class="summary-section">
+            <h2>Order Summary</h2>
+            <input type="text" id="coupon-code" placeholder="Enter Coupon Code">
+            <br>
+            <button id="apply-coupon">Apply Coupon</button>
+
+            <h3>Payment Details</h3>
+            <div class="payment-options">
+                <label>
+                    <input type="radio" name="payment" checked> Cash on Delivery
+                </label>
+                <label>
+                    <input type="radio" name="payment"> Shopcart Card
+                </label>
+                <label>
+                    <input type="radio" name="payment"> Credit or Debit Card
+                </label>
+            </div>
+
+            <div class="payment-images">
+                <img src="https://via.placeholder.com/50" alt="Visa">
+                <img src="https://via.placeholder.com/50" alt="Mastercard">
+            </div>
+
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Card Holder Name" required>
+            </form>
+        </div>
+    </div>
+    <script src="checkOut.js"></script>
+</body>
+</html>
