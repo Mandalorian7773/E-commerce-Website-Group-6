@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Email</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init("ZozX_jEMzkMYWlqWK"); 
+    </script>
+</head>
+<body>
+
+    <a>
+    <button href="dashbaord.html">Back</button>
+    </a>
+
+    <h2>Order Confirmation</h2>
+    <form id="email-form">
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="user_email">Enter Your Email:</label>
+        <input type="email" id="email" name="user_email" required><br><br>
+
+        <label for="subject">Enter Address:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+       
+        <p id="message">Order Confirmed</p><br><br>
+        
+        <button type="submit">Confirm Order</button>
+    </form>
+
+    <script src="mail.js"></script>
+    <link rel="stylesheet" href="orderC.css">
+</body>
+</html>
