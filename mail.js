@@ -12,6 +12,7 @@ document.getElementById("email-form").addEventListener("submit", function(event)
     emailjs.send("service_bccfxar", "template_oy5poll", params)
         .then(function(response) {
             alert("Order Confirmed!");
+            window.location.href="TY.html"
            
         })
        

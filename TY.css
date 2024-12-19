@@ -1,0 +1,12 @@
+*{
+    
+}
+.container{
+  
+    text-align: center;
+    color: orange;
+}
+.container img{
+    height:500px;
+    width: 500px;
+}

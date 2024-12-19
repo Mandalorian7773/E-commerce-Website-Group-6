@@ -14,5 +14,15 @@
     border-radius: 8px;
   }
 
+  a {
+    border-style:solid;
+  
+  }
+  a button {
+   background-color: black;
+   color:white;
+    
+  }
+ 
 
  
