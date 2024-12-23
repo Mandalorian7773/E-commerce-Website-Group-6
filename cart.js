@@ -3,18 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const cartContainer = document.getElementById("cart-container");
   const totalPriceElement = document.getElementById("total-price");
 
-  if (!cartContainer) {
-    console.error("Element with id 'cart-container' not found.");
-    return;
-  }
-
   const updateTotalPrice = () => {
-    const total = cart.reduce((acc, item) => acc + item.price, 0);
+    const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
     totalPriceElement.innerText = total.toFixed(2);
   };
 
   const renderCart = () => {
-    cartContainer.innerHTML = "";
+    cartContainer.innerHTML = ""; 
 
     if (cart.length === 0) {
       cartContainer.innerHTML = "<h2>Your cart is empty</h2>";
@@ -28,28 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
       itemDiv.innerHTML = `
         <div class="cart-item-bar">
           <img src="${item.img}" alt="${item.modelName}" width="100">
-          <h3>${item.modelName}</h3>
-          <p>Size: ${item.size}</p>
+          <h3>${item.modelName} (Size: ${item.size})</h3>
           <p>Price: $${item.price}</p>
+          <p>Quantity: ${item.quantity}</p>
           <button class="remove-btn" data-index="${index}">Remove</button>
         </div>
       `;
       cartContainer.appendChild(itemDiv);
     });
 
-    const checkoutButton = document.createElement("button");
-    checkoutButton.innerText = "Checkout";
-    checkoutButton.id = "checkout-button";
-    cartContainer.appendChild(checkoutButton);
-
-    checkoutButton.addEventListener("click", () => {
-      if (cart.length === 0) {
-        alert("Cart is empty. Please add items to proceed.");
-        return;
-      }
-
-      window.location.href = "orderC.html";
-    });
+    updateTotalPrice();
   };
 
   cartContainer.addEventListener("click", (event) => {
@@ -65,5 +48,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderCart();
-  updateTotalPrice();
 });

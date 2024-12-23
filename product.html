@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
+    <link rel="stylesheet" href="product.css">
 </head>
 <body>
     <div id="product-container">
@@ -12,6 +13,7 @@
         <p id="product-description"></p>
         <p id="product-details"></p>
         <h3 id="product-price"></h3>
+
         <div class="size-container">
             <span class="size-label">Shoe Sizes:</span>
             <div class="size-box" data-size="6">6</div>
@@ -22,15 +24,13 @@
             <div class="size-box" data-size="11">11</div>
             <div class="size-box" data-size="12">12</div>
         </div>
-        
-      
+
+        <label for="quantity-input">Quantity:</label>
+        <input id="quantity-input" type="number" value="1" min="1" max="10">
         
         <button id="add-to-cart">Add to Cart</button>
     </div>
-    <script src="product.js" defer></script>
 
-   
+    <script src="product.js"></script>
 </body>
-<link rel="stylesheet" href="product.css">
 </html>
-
