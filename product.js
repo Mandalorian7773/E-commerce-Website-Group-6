@@ -14,24 +14,40 @@ fetch("seller.json")
       document.getElementById("product-details").innerText = product.details || "No details available.";
       document.getElementById("product-price").innerText = "$" + product.price;
 
-      
+      let selectedSize = null;
+
+     
+      const sizeBoxes = document.querySelectorAll('.size-box');
+      sizeBoxes.forEach(sizeBox => {
+        sizeBox.addEventListener('click', () => {
+        
+          sizeBoxes.forEach(box => box.classList.remove('selected'));
+          
+        
+          sizeBox.classList.add('selected');
+          selectedSize = sizeBox.dataset.size; 
+        });
+      });
+
       document.getElementById("add-to-cart").addEventListener("click", () => {
+        if (!selectedSize) {
+          alert("Please select a size.");
+          return;
+        }
 
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-        
-        const isProductInCart = cart.some(item => item.id === product.id);
+        const isProductInCart = cart.some(item => item.id === product.id && item.size === selectedSize);
 
         if (isProductInCart) {
-          alert("This product is already in your cart.");
+          alert("This product with the selected size is already in your cart.");
         } else {
-          
-          cart.push(product);
+        
+          cart.push({ ...product, size: selectedSize });
           localStorage.setItem("cart", JSON.stringify(cart));
-          alert("Product added to cart!"); 
+          alert("Product added to cart!");
         }
 
-        
         window.location.href = "cart.html";
       });
     } else {
