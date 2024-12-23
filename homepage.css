@@ -1,7 +1,7 @@
-* {
+ * {
     margin: 0;
     padding: 0;
-}
+} 
 .navbar {
     display: flex;
     align-items: center;
@@ -200,8 +200,10 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto ;
-    /* grid-template-rows: auto auto auto auto; */
-}
+    grid-template-rows: auto auto auto auto; 
+    gap:15px;
+    margin-top: 20px;
+} 
 
 .productimg {
     /* padding: 20px; */
@@ -225,3 +227,56 @@ img {
 h2{
      font-family: serif;
 }
+
+/* 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding: 100px;
+    margin-top: 10px;
+   
+    
+  } */
+  
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.985);
+    height: 320px;
+    width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .grid-container img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    margin-bottom: 0; 
+  }
+  
+  .grid-container > div:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 20px rgb(255, 255, 255) ;
+  }
+  
+  .grid-container > div > h5 {
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin:4px;
+    margin-top: 20px;
+    background-color: rgb(240,240,240);
+    
+  
+    
+  }
+  
+  .grid-container > div > h4 {
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    margin:0;
+    text-align: center;
+    background-color: rgb(240,240,240);
+  }
