@@ -15,18 +15,14 @@ fetch("seller.json")
       
       let selectedSize = null;
 
-      // Select size event listener
       document.querySelectorAll('.size-box').forEach(sizeBox => {
         sizeBox.addEventListener('click', () => {
-          // Remove the active class from all size boxes
           document.querySelectorAll('.size-box').forEach(box => box.classList.remove('active'));
-          // Add the active class to the clicked size box
           sizeBox.classList.add('active');
           selectedSize = sizeBox.getAttribute('data-size');
         });
       });
 
-      // Add to Cart button functionality
       document.getElementById("add-to-cart").addEventListener("click", () => {
         if (!selectedSize) {
           alert("Please select a size before adding to the cart.");
@@ -35,26 +31,25 @@ fetch("seller.json")
 
         const quantity = document.getElementById("quantity-input").value;
 
-        // Create the product object with size and quantity
         const productWithSize = {
           ...product,
           size: selectedSize,
-          quantity: quantity
+          quantity: parseInt(quantity)
         };
 
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-        // Check if the product is already in the cart
-        const isProductInCart = cart.some(item => item.id === product.id && item.size === selectedSize);
+        const existingProduct = cart.find(item => item.id === product.id && item.size === selectedSize);
 
-        if (isProductInCart) {
-          alert("This product (size " + selectedSize + ") is already in your cart.");
+        if (existingProduct) {
+          existingProduct.quantity += productWithSize.quantity;
         } else {
           cart.push(productWithSize);
-          localStorage.setItem("cart", JSON.stringify(cart));
-          alert("Product added to cart!");
-          window.location.href = "cart.html";  // Redirect to the cart page
         }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+        alert("Product added to cart!");
+        window.location.href = "cart.html";
       });
     } else {
       document.body.innerHTML = "<h1>Product not found</h1>";
