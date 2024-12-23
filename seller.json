@@ -5,6 +5,7 @@
         "gender":1,
         "modelName": "Ja 2 'Nightmare' EP",
         "price": 11500,
+        "stock":5,
 
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/0170bf4f-3211-4860-956e-c0cd974e10a9/ja-2-nightmare-ep-basketball-shoes-pPZpsS.png",
         "description": "High-performance basketball shoes designed for speed and agility.",
@@ -16,6 +17,7 @@
         "gender":1,
         "modelName": "Tatum 3",
         "price": 6000,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/d57e5066-b53b-4f9b-bd37-37d4c01b41a9/tatum-3-pf-welcome-to-garden-basketball-shoes-Rxx3lS.png"
         
       },
@@ -24,6 +26,7 @@
         "gender":1,
         "modelName": "Ja 2 purple sky",
         "price": 3000,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/20fd0937-0c1e-4149-b098-607ce9c428be/ja-2-purple-sky-ep-basketball-shoes-hbJNNL.png"
       },
       {
@@ -31,6 +34,7 @@
         "gender":2,
         "modelName": "Tatum 3 PF 'zen'",
         "price": 45850,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/4aa50aaf-1393-4c1d-8eb3-db2a1fb16714/tatum-3-pf-zen-basketball-shoes-Rxx3lS.png"
       },
       {
@@ -38,6 +42,7 @@
         "gender":1,
         "modelName": "Nike Dunk Low",
         "price":19950 ,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png"
       },
       {
@@ -45,6 +50,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low SE",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b0d4d2e-d306-4b50-b335-e9c8202144d8/NIKE+DUNK+LOW+SE.png"
       },
       {
@@ -52,6 +58,7 @@
         "gender":1,
         "modelName": "Nike Dunk Low Retro",
         "price": 12895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26c4acd1-385f-48fe-b4c0-8e573671e530/NIKE+DUNK+LOW+RETRO.png"
       },
       {
@@ -59,6 +66,7 @@
         "gender":2,
         "modelName": "Nike SB Dunk Low",
         "price": 9695,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e47696-f000-4bb9-a6d3-41aa19220379/NIKE+SB+DUNK+LOW+PRO.png"
       },
       {
@@ -66,6 +74,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c35a622a-993c-47d4-9370-1a8cca3b59fb/W+NIKE+DUNK+LOW+PRM.png"
       },
       
@@ -74,6 +83,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Twist",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d1c6369d-cb3f-4aa9-ab49-84d534f280a1/W+NIKE+DUNK+LOW++TWIST.png"
       },
       
@@ -82,6 +92,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bbf38cee-7769-4489-95f3-82e16686df73/NIKE+DUNK+LOW.png"
       },
       
@@ -90,6 +101,7 @@
         "gender":2,
         "modelName": "White and University Blue",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d2b3789a-ea80-462d-921e-1aa65607df75/NIKE+SB+DUNK+LOW+PRO.png"
       },
       {
@@ -97,6 +109,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Next Nature",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ad5622d9-3c16-4835-8bb0-b2aa22338f28/W+NIKE+DUNK+LOW+NEXT+NATURE.png"
       },
       {
@@ -104,6 +117,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Next Nature",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/208326b2-887c-4a1e-905a-ec13820c3e1b/W+NIKE+DUNK+LOW+NEXT+NATURE.png"
       },
       {
@@ -111,6 +125,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cd14f559-aa93-4875-8d08-b6cd1ee1ca21/NIKE+SB+DUNK+LOW+PRM.png"
       },
       {
@@ -118,6 +133,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f13622e3-1435-4856-86a1-cef0419cd288/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -125,6 +141,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e30ec0bb-4fe6-4e25-9f77-e1a1f20f3f30/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -132,6 +149,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Disrupt 2",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3606d962-1dd6-4995-90d4-75da39fa9acd/W+NIKE+DUNK+LOW+DISRUPT+2.png"
       },
       {
@@ -139,6 +157,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Retro SE",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b64b684-f584-41eb-9973-1b9707eac9b5/NIKE+DUNK+LOW+RETRO+SE.png"
       },
       {
@@ -146,6 +165,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/05190b3c-b5b2-4a28-974c-0e8ecf41803f/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -153,6 +173,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae5bfa27-6e51-48ee-adab-a52d10c1dbee/W+NIKE+DUNK+LOW+PRM.png"
       },
       { 
@@ -160,6 +181,7 @@
         "gender":1,
         "modelName": "Ja 2 'Nightmare' EP",
         "price": 11500,
+        "stock":5,
 
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/0170bf4f-3211-4860-956e-c0cd974e10a9/ja-2-nightmare-ep-basketball-shoes-pPZpsS.png",
         "description": "High-performance basketball shoes designed for speed and agility.",
@@ -171,6 +193,7 @@
         "gender":1,
         "modelName": "Tatum 3",
         "price": 6000,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/d57e5066-b53b-4f9b-bd37-37d4c01b41a9/tatum-3-pf-welcome-to-garden-basketball-shoes-Rxx3lS.png"
         
       },
@@ -179,6 +202,7 @@
         "gender":1,
         "modelName": "Ja 2 purple sky",
         "price": 3000,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/20fd0937-0c1e-4149-b098-607ce9c428be/ja-2-purple-sky-ep-basketball-shoes-hbJNNL.png"
       },
       {
@@ -186,6 +210,7 @@
         "gender":2,
         "modelName": "Tatum 3 PF 'zen'",
         "price": 45850,
+        "stock":5,
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_449,c_limit/4aa50aaf-1393-4c1d-8eb3-db2a1fb16714/tatum-3-pf-zen-basketball-shoes-Rxx3lS.png"
       },
       {
@@ -193,6 +218,7 @@
         "gender":1,
         "modelName": "Nike Dunk Low",
         "price":19950 ,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png"
       },
       {
@@ -200,6 +226,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low SE",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b0d4d2e-d306-4b50-b335-e9c8202144d8/NIKE+DUNK+LOW+SE.png"
       },
       {
@@ -207,6 +234,7 @@
         "gender":1,
         "modelName": "Nike Dunk Low Retro",
         "price": 12895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26c4acd1-385f-48fe-b4c0-8e573671e530/NIKE+DUNK+LOW+RETRO.png"
       },
       {
@@ -214,6 +242,7 @@
         "gender":2,
         "modelName": "Nike SB Dunk Low",
         "price": 9695,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e47696-f000-4bb9-a6d3-41aa19220379/NIKE+SB+DUNK+LOW+PRO.png"
       },
       {
@@ -221,6 +250,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c35a622a-993c-47d4-9370-1a8cca3b59fb/W+NIKE+DUNK+LOW+PRM.png"
       },
       
@@ -229,6 +259,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Twist",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d1c6369d-cb3f-4aa9-ab49-84d534f280a1/W+NIKE+DUNK+LOW++TWIST.png"
       },
       
@@ -237,6 +268,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bbf38cee-7769-4489-95f3-82e16686df73/NIKE+DUNK+LOW.png"
       },
       
@@ -245,6 +277,7 @@
         "gender":2,
         "modelName": "White and University Blue",
         "price": 11895,
+        "stock":5,
         "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d2b3789a-ea80-462d-921e-1aa65607df75/NIKE+SB+DUNK+LOW+PRO.png"
       },
       {
@@ -252,6 +285,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Next Nature",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ad5622d9-3c16-4835-8bb0-b2aa22338f28/W+NIKE+DUNK+LOW+NEXT+NATURE.png"
       },
       {
@@ -259,6 +293,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Next Nature",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/208326b2-887c-4a1e-905a-ec13820c3e1b/W+NIKE+DUNK+LOW+NEXT+NATURE.png"
       },
       {
@@ -266,6 +301,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cd14f559-aa93-4875-8d08-b6cd1ee1ca21/NIKE+SB+DUNK+LOW+PRM.png"
       },
       {
@@ -273,6 +309,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f13622e3-1435-4856-86a1-cef0419cd288/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -280,6 +317,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e30ec0bb-4fe6-4e25-9f77-e1a1f20f3f30/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -287,6 +325,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Disrupt 2",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3606d962-1dd6-4995-90d4-75da39fa9acd/W+NIKE+DUNK+LOW+DISRUPT+2.png"
       },
       {
@@ -294,6 +333,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Retro SE",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b64b684-f584-41eb-9973-1b9707eac9b5/NIKE+DUNK+LOW+RETRO+SE.png"
       },
       {
@@ -301,6 +341,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/05190b3c-b5b2-4a28-974c-0e8ecf41803f/W+NIKE+DUNK+LOW.png"
       },
       {
@@ -308,6 +349,7 @@
         "gender":2,
         "modelName": "Nike Dunk Low Premium",
         "price": 11895,
+        "stock":5,
         "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae5bfa27-6e51-48ee-adab-a52d10c1dbee/W+NIKE+DUNK+LOW+PRM.png"
       }
       
