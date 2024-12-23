@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Details</title>
-  <link rel="stylesheet" href="product.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
 </head>
 <body>
-  <div class="container">
-    <img class="productImg" id="productImg" src="">
-    <div class="product">
-      <h1 class="ModelName" id="ModelName">SHOE1</h1>
-      <p class="price" id="price"></p>
-      <p class="description" id="description"></p>
-      <p class="details" id="details"></p>
+    <div id="product-container">
+        <img id="product-img" src="" alt="Product Image">
+        <h2 id="product-name"></h2>
+        <p id="product-description"></p>
+        <p id="product-details"></p>
+        <h3 id="product-price"></h3>
+        <button id="add-to-cart">Add to Cart</button>
     </div>
-    <a href="cart.html">
-      <button>Add to Cart</button>
-    </a>
-  </div>
+    <script src="product.js" defer></script>
 
- <script src="product.js"></script>
+   
 </body>
 </html>
+
