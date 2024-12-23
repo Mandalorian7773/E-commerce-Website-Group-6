@@ -4,7 +4,7 @@ fetch("seller.json")
     const shoeData = data.shoesData;
     const shoeDiv = document.querySelector("#gridC");
     shoeDiv.innerHTML = '';
-    const menShoes = shoeData.filter(item => item.gender === 1);
+    
 
     function displayProducts(products) {
       shoeDiv.innerHTML = ''; 
@@ -37,7 +37,7 @@ fetch("seller.json")
       });
     }
 
-    displayProducts(menShoes);
+    displayProducts(shoeData);
 
     document.getElementById('search-btn').addEventListener('click', () => {
       let searchInput = document.querySelector('.search-input').value.toLowerCase();
