@@ -1,17 +1,114 @@
-.container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-.productImg {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
+#product-container {
+    max-width: 1300px;
+    margin: 40px auto;
+
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#product-img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
 
+#product-container > div {
+
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+ 
+}
+
+#product-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+#product-description {
+    font-size: 16px;
+    color: #555;
+}
+
+.size-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.size-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.size-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.size-box:hover {
+    border-color: #007BFF;
+    background-color: #e6f2ff;
+}
+
+.size-box.selected {
+    border-color: #4CAF50;
+    background-color: #eaffea;
+}
+
+#add-to-cart {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: flex-start;
+}
+
+#add-to-cart:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#add-to-cart:active {
+    background-color: #003d80;
+    transform: scale(0.95);
+}
