@@ -77,7 +77,7 @@ function login() {
       alert("User logged in successfully!");
 
       // Redirect to home page
-      window.location = "home.html";
+      window.location = "homePage.html";
     })
     .catch(function (error) {
       alert(error.message);
