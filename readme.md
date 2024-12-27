@@ -1,4 +1,4 @@
-# group - 6 project
+# Group - 6 project
 
 # 🛒 E-Commerce Website for Nike
 Welcome to the repository for our Nike-inspired e-commerce website! This project was developed as part of a college assignment to demonstrate skills in web development, user interface design, and database management.
