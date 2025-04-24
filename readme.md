@@ -32,3 +32,6 @@ Clone the Repository:
 
 git clone https://github.com/Mandalorian7773/E-commerce-Website-Group-6.git 
 
+Then start the live server from index.html
+
+
